@@ -1,0 +1,22 @@
+{
+  "name": "html5",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visiin/html5.git"
+  },
+  "keywords": [
+    "html5"
+  ],
+  "author": "visdark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/visiin/html5/issues"
+  },
+  "homepage": "https://github.com/visiin/html5#readme"
+}
