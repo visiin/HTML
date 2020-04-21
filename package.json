@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/visiin/html5/issues"
   },
-  "homepage": "https://github.com/visiin/html5#readme"
+  "homepage": "https://github.com/visiin/html5#readme",
+  "dependencies": {
+    "cowsay": "^1.4.0",
+    "glob": "^7.1.6",
+    "gulp": "^4.0.2"
+  }
 }
