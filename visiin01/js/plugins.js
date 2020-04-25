@@ -1,4 +1,4 @@
-// Avoid `console` errors in browsers that lack a console.
+// 避免调试console代码导致IE出错
 (function() {
   var method;
   var noop = function () {};
@@ -14,11 +14,11 @@
   while (length--) {
     method = methods[length];
 
-    // Only stub undefined methods.
+    // 没有的方法给设置为空函数
     if (!console[method]) {
       console[method] = noop;
     }
   }
 }());
 
-// Place any jQuery/helper plugins in here.
+// 其他的插件代码
